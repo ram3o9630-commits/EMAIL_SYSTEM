@@ -1,0 +1,67 @@
+
+$ dir
+ Volume in drive C is Windows
+ Volume Serial Number is DA38-DB60
+
+ Directory of C:\EMAIL_SYSTEM
+
+12/28/2025  08:55 AM    <DIR>          .
+12/28/2025  08:45 AM    <DIR>          .pytest_cache
+12/28/2025  08:44 AM    <DIR>          .venv
+12/28/2025  08:55 AM    <DIR>          logs
+12/28/2025  08:20 AM             5,607 no_reply_email.py
+12/28/2025  08:53 AM            11,860 no_reply_email_system.py
+12/28/2025  08:52 AM                50 pytest.ini
+12/28/2025  08:52 AM                 8 requirements-dev.txt
+12/28/2025  08:41 AM                54 requirements.txt
+12/28/2025  08:55 AM             1,061 run_with_log.py
+12/28/2025  08:52 AM    <DIR>          tests
+12/28/2025  08:53 AM    <DIR>          __pycache__
+               6 File(s)         18,640 bytes
+               6 Dir(s)  159,379,570,688 bytes free
+Exit code: 0
+
+$ dir tests
+ Volume in drive C is Windows
+ Volume Serial Number is DA38-DB60
+
+ Directory of C:\EMAIL_SYSTEM\tests
+
+12/28/2025  08:52 AM    <DIR>          .
+12/28/2025  08:55 AM    <DIR>          ..
+12/28/2025  08:52 AM             1,692 conftest.py
+12/28/2025  08:52 AM             1,754 test_db_client.py
+12/28/2025  08:52 AM             1,408 test_email_sender_headers_and_mime.py
+12/28/2025  08:53 AM             1,427 test_env_validation.py
+12/28/2025  08:52 AM             1,962 test_event_senders.py
+12/28/2025  08:52 AM             1,325 test_renderers.py
+12/28/2025  08:47 AM                44 test_smoke.py
+12/28/2025  08:53 AM    <DIR>          __pycache__
+               7 File(s)          9,612 bytes
+               3 Dir(s)  159,379,566,592 bytes free
+Exit code: 0
+
+$ dir .venv
+ Volume in drive C is Windows
+ Volume Serial Number is DA38-DB60
+
+ Directory of C:\EMAIL_SYSTEM\.venv
+
+12/28/2025  08:44 AM    <DIR>          .
+12/28/2025  08:55 AM    <DIR>          ..
+12/28/2025  08:44 AM    <DIR>          Include
+12/28/2025  08:44 AM    <DIR>          Lib
+12/28/2025  08:44 AM               306 pyvenv.cfg
+12/28/2025  08:45 AM    <DIR>          Scripts
+               1 File(s)            306 bytes
+               5 Dir(s)  159,379,566,592 bytes free
+Exit code: 0
+
+$ python --version
+Python 3.12.4
+Exit code: 0
+
+$ Select-String -Path .\no_reply_email_system.py -Pattern 'def ' | Select-Object -First 200
+'Select-String' is not recognized as an internal or external command,
+operable program or batch file.
+Exit code: 255

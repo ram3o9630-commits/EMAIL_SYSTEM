@@ -1,0 +1,5 @@
+﻿# Runtime
+python-dotenv
+
+# Testing / Debug
+pytest

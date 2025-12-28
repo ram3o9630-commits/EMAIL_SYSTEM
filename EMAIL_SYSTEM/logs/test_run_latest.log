@@ -1,0 +1,4 @@
+
+$ python -m pytest -q tests\test_renderers.py
+....                                                                     [100%]
+Exit code: 0

@@ -1,0 +1,14 @@
+
+$ python -m pytest -q tests\test_email_sender_headers_and_mime.py
+.                                                                        [100%]
+Exit code: 0
+
+$ python -m pytest -q tests\test_retry_logic.py
+ERROR: file or directory not found: tests\test_retry_logic.py
+
+
+Exit code: 4
+
+$ python -m pytest -q tests\test_db_client.py
+...                                                                      [100%]
+Exit code: 0

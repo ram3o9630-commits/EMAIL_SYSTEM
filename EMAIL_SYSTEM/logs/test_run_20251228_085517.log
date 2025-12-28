@@ -1,0 +1,19 @@
+
+$ python -m pip install -r requirements.txt
+Requirement already satisfied: python-dotenv in c:\email_system\.venv\lib\site-packages (from -r requirements.txt (line 2)) (1.2.1)
+Requirement already satisfied: pytest in c:\email_system\.venv\lib\site-packages (from -r requirements.txt (line 5)) (9.0.2)
+Requirement already satisfied: colorama>=0.4 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements.txt (line 5)) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements.txt (line 5)) (2.3.0)
+Requirement already satisfied: packaging>=22 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements.txt (line 5)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements.txt (line 5)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements.txt (line 5)) (2.19.2)
+Exit code: 0
+
+$ python -m pip install -r requirements-dev.txt
+Requirement already satisfied: pytest in c:\email_system\.venv\lib\site-packages (from -r requirements-dev.txt (line 1)) (9.0.2)
+Requirement already satisfied: colorama>=0.4 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements-dev.txt (line 1)) (0.4.6)
+Requirement already satisfied: iniconfig>=1.0.1 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements-dev.txt (line 1)) (2.3.0)
+Requirement already satisfied: packaging>=22 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements-dev.txt (line 1)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements-dev.txt (line 1)) (1.6.0)
+Requirement already satisfied: pygments>=2.7.2 in c:\email_system\.venv\lib\site-packages (from pytest->-r requirements-dev.txt (line 1)) (2.19.2)
+Exit code: 0

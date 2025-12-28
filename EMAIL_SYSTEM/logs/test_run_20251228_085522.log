@@ -1,0 +1,14 @@
+
+$ python -m pytest --collect-only -q
+tests/test_db_client.py: 3
+tests/test_email_sender_headers_and_mime.py: 1
+tests/test_env_validation.py: 4
+tests/test_event_senders.py: 4
+tests/test_renderers.py: 4
+tests/test_smoke.py: 1
+
+Exit code: 0
+
+$ python -m pytest -q
+.................                                                        [100%]
+Exit code: 0
